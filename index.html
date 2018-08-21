@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome Landing Page</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+        }
+
+        #main {
+            width: 900px;
+            margin: auto;
+        }
+
+        #header {
+            text-align: center;
+        }
+
+        #nav-bar {
+            margin: 20px auto 50px auto;
+        }
+
+        .nav-link,
+        .nav-link:visited{
+            margin: 20px;
+            color: #71717a;
+            text-decoration: none;
+        }
+
+
+        .nav-link:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        #about{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #video{
+            height: 360px;
+            width: 720px;
+        }
+    </style>
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="main">
+    <div id="header">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#products" class="nav-link">Prices</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <img src="img/logo.png" alt="The logo for XMPL" id="header-img">
+
+    </div>
+    <section id="about">
+        <iframe id="video" width="720" height="360"
+                src="https://www.youtube-nocookie.com/embed/2YBtspm8j8M?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0" allowfullscreen>
+        </iframe>
+    </section>
+    <section id="products">Products</section>
+    <section id="contact">Contact</section>
+
+</div>
+
+</body>
+</html>
