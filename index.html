@@ -3,47 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Awesome Landing Page</title>
-    <style>
-        body {
-            font-family: "Helvetica Neue", Arial, sans-serif;
-        }
-
-        #main {
-            width: 900px;
-            margin: auto;
-        }
-
-        #header {
-            text-align: center;
-        }
-
-        #nav-bar {
-            margin: 20px auto 50px auto;
-        }
-
-        .nav-link,
-        .nav-link:visited{
-            margin: 20px;
-            color: #71717a;
-            text-decoration: none;
-        }
-
-
-        .nav-link:hover {
-            color: black;
-            text-decoration: underline;
-        }
-
-        #about{
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        #video{
-            height: 360px;
-            width: 720px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -63,9 +23,39 @@
                 frameborder="0" allowfullscreen>
         </iframe>
     </section>
-    <section id="products">Products</section>
-    <section id="contact">Contact</section>
-
+    <section id="products">
+        <div class="product">
+            <div class="product-header">Product A</div>
+            <ul>
+                <li>lorem</li>
+                <li>ipsun</li>
+                <li>dolor sit</li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="product-header">Product B</div>
+            <ul>
+                <li>lorem</li>
+                <li>ipsun</li>
+                <li>dolor sit</li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="product-header">Product C</div>
+            <ul>
+                <li>lorem</li>
+                <li>ipsun</li>
+                <li>dolor sit</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Get notified from our latest news!</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input id="email" type="email" name="email" placeholder="Enter your email address">
+            <input id="submit" type="submit" value="Subscribe">
+        </form>
+    </section>
 </div>
 
 </body>
